@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Wallpaper_3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 700px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: green;
+    font-size: 20px;
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.menu{
+    width: auto;
+    float: left;
+    height: auto;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: xx-small;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: greenyellow;
+}
+
+.content{
+    padding-right: 450px;
+    padding-top: 20px;
+    float: left;
+    color: white;
+}
+
+h4{
+    color: green;
+}
+
+p{
+    font-style: italic;
+}
+
+.pic{
+    float: right;
+    width: 30%;
+}
+
+.img{
+    position: absolute;
+    width: 70%;
+    left: 10%;
+    top: 30%;
+}
+
+.ord{
+    color: black;
+    font-weight: bold;
+}
+
+.ord:hover{
+    color: blue;
+}
